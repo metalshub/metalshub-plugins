@@ -1,0 +1,18 @@
+{
+  "name": "metalshub",
+  "version": "0.1.0",
+  "description": "Connect ChatGPT and Codex with the Metalshub platform.",
+  "author": {
+    "name": "Metalshub"
+  },
+  "interface": {
+    "displayName": "Metalshub",
+    "shortDescription": "Connect with the Metalshub platform.",
+    "longDescription": "Connect ChatGPT and Codex with the Metalshub platform.",
+    "developerName": "Metalshub",
+    "category": "Other",
+    "capabilities": [],
+    "defaultPrompt": "Help me use Metalshub."
+  },
+  "apps": "./.app.json"
+}
