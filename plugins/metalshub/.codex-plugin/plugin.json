@@ -1,18 +1,38 @@
 {
   "name": "metalshub",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260828131625",
   "description": "Connect ChatGPT and Codex with the Metalshub platform.",
   "author": {
-    "name": "Metalshub"
+    "name": "Metalshub",
+    "email": "ai@metals-hub.com",
+    "url": "https://www.metals-hub.com/"
   },
+  "repository": "https://github.com/metalshub/metalshub-plugins",
+  "license": "MIT",
+  "keywords": [
+    "metalshub",
+    "metals",
+    "mining",
+    "rawmaterials",
+    "rawmaterials-prices",
+    "metalshub-plugin"
+  ],
   "interface": {
     "displayName": "Metalshub",
     "shortDescription": "Connect with the Metalshub platform.",
     "longDescription": "Connect ChatGPT and Codex with the Metalshub platform.",
     "developerName": "Metalshub",
     "category": "Other",
-    "capabilities": [],
-    "defaultPrompt": "Help me use Metalshub."
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Help me use Metalshub.",
+    "websiteURL": "https://www.metals-hub.com",
+    "privacyPolicyURL": "https://www.metals-hub.com/privacy-policy",
+    "brandColor": "#36B9FF",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
   },
   "apps": "./.app.json"
 }
